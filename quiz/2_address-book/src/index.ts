@@ -98,7 +98,17 @@ class AddressBook {
   displayListByAddress(): string[] {
     return this.contacts.map(contact => contact.address);
   }
+
   /* ------------------------------------------------ */
 }
+
+let _div = document.querySelector('.container') 
+if (_div) { // 타입 단언하면 이걸 할 필요가 없다
+	// _div.innerText
+}
+
+let div = document.querySelector('.container') as HTMLDivElement //타입 단언
+div.innerText
+
 
 new AddressBook();
