@@ -2,6 +2,7 @@
 	"compilerOptions": {
 		"allowJs": true,
 		"checkJs": true,
-		"noImplicitAny": true
+		"noImplicitAny": true,
+		"lib": ["es5","dom","es2015.promise"]
 	}
 }
