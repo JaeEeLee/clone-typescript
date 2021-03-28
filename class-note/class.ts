@@ -14,7 +14,7 @@ class Person {
 // }
 
 
-
+  
 // react 최신 문법 - hook 기반 함수형 코드
 // const App = () => {
 // 	return <div>Hello World</div>
