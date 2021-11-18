@@ -1,1 +1,5 @@
 quiz/2_address-book/node_modules/*
+
+project/node_modules/*
+
+project/package-lock.json
